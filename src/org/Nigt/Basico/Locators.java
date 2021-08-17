@@ -5,7 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Locators {
     static WebDriver driver;
-
+    public static String ChromeDriver_win ="chromedriver.exe";
     public static void main(String[] args) {
 
         //instanciar un objeto WebDriver
@@ -17,7 +17,7 @@ public class Locators {
             String expecteResul = "$16.50";
 
             //Indicar la locacion del archivo selenium (WebDriver.exe)
-            System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\drivers\\chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver" , Constantes.DRIVER_PATH_WIN + ChromeDriver_win);
 
             //abrir el navegadorS
             driver = new ChromeDriver();
