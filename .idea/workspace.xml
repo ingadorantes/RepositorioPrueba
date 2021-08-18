@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e392995-1ca2-47d2-a0c3-81b58778b792" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/Nigt/utils/WebDrivers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nightmare.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Nightmare.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/Nigt/Basico/CloseQuit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Nigt/proyect/CloseQuit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/Nigt/Basico/Constantes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Nigt/utils/Paths.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/Nigt/Basico/Ejemplo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Nigt/proyect/Ejemplo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/Nigt/Basico/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Nigt/proyect/Locators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/Nigt/utils/BaseClase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Nigt/utils/BaseClase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/Nigt/utils/ManageWebDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Nigt/utils/ManageWebDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/Nigt/utils/Paths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/Nigt/utils/Paths.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -1,2 +1,8 @@
 # Se ignora Clase Constantes
 Prueba.java
+
+# Se ignora Clase Paths
+Paths.java
+
+# Se ignora Clase ManageWebDriver
+ManageWebDriver.java

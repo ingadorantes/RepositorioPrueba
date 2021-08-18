@@ -11,8 +11,8 @@ public class ManageWebDriver {
     //Declara varibale de tipo WebDrivers llamada Driver
     public static WebDrivers Driver;
     //Declarar varibales de tipo String con nombres de ejecutables
-    public static String ChromeDriver_win ="chromedriver.exe";
-    public static String FirefoxDriver_win = "geckodriver.exe";
+    public static String ChromeDriver ="chromedriver";
+    public static String FirefoxDriver = "geckodriver";
 
 
     //Constructor de la clase ManageWebDriver
@@ -21,11 +21,11 @@ public class ManageWebDriver {
     public WebDriver getDriver(){
         switch (Driver){
             case CHROME:
-                System.setProperty("webdriver.chrome.driver" , Paths.DRIVER_PATH_WIN + ChromeDriver_win);
+                System.setProperty("webdriver.chrome.driver" , Paths.DRIVER_PATH + ChromeDriver);
                 driver = new ChromeDriver();
             break;
             case FIREFOX:
-                System.setProperty("webdriver.gecko.driver", Paths.DRIVER_PATH_WIN + FirefoxDriver_win);
+                System.setProperty("webdriver.gecko.driver", Paths.DRIVER_PATH + FirefoxDriver);
                 driver = new FirefoxDriver();
             break;
         }
