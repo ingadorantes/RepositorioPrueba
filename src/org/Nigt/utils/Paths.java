@@ -1,6 +1,6 @@
-package org.Nigt.Basico;
+package org.Nigt.utils;
 
-public class Constantes {
+public class Paths {
 
     public static String DRIVER_PATH_WIN = ".\\RepositorioPrueba\\drivers\\";
     public static String DRIVER_PATH_LIN = "";

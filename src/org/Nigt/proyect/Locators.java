@@ -1,5 +1,6 @@
-package org.Nigt.Basico;
+package org.Nigt.proyect;
 
+import org.Nigt.utils.Paths;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -17,7 +18,7 @@ public class Locators {
             String expecteResul = "$16.50";
 
             //Indicar la locacion del archivo selenium (WebDriver.exe)
-            System.setProperty("webdriver.chrome.driver" , Constantes.DRIVER_PATH_WIN + ChromeDriver_win);
+            System.setProperty("webdriver.chrome.driver" , Paths.DRIVER_PATH_WIN + ChromeDriver_win);
 
             //abrir el navegadorS
             driver = new ChromeDriver();
