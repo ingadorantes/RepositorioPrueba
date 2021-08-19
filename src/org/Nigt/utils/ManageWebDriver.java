@@ -11,8 +11,8 @@ public class ManageWebDriver {
     //Declara varibale de tipo WebDrivers llamada Driver
     public static WebDrivers Driver;
     //Declarar varibales de tipo String con nombres de ejecutables
-    public static String ChromeDriver ="chromedriver";
-    public static String FirefoxDriver = "geckodriver";
+    public static String ChromeDriver ="chromedriver.exe";
+    public static String FirefoxDriver = "geckodriver.exe";
 
 
     //Constructor de la clase ManageWebDriver
